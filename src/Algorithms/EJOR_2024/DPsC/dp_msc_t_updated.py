@@ -1,9 +1,9 @@
-# ~/EJOR_2024_Tool/src/Algorithms/EJOR_2024/Max_DsT/dp_msc_t_updated.py
+# ~/EJOR_2024_Tool/src/Algorithms/EJOR_2024/DPsC/dp_msc_t_updated.py
 
 from src.Graphs.Graph.directed_tree import DirectedTree
 from src.Graphs.Nodes.TreeNodes.dsclub_node import DSClubNode
-from src.Algorithms.EJOR_2024.Max_DsT.downward_sweep import DownwardSweep
-from src.Algorithms.EJOR_2024.Max_DsT.upward_sweep_updated import UpwardSweepUpdated
+from src.Algorithms.EJOR_2024.DPsC.downward_sweep import DownwardSweep
+from src.Algorithms.EJOR_2024.DPsC.upward_sweep_updated import UpwardSweepUpdated
 
 
 class DPMsCT_UPDATED:

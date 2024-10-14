@@ -30,11 +30,11 @@
     |   |   |-- abstract_benchmark_tester.py
     |   |   |-- tree_s_club_s_club_tester.py
     |   |-- Testing
-    |       |-- run_Schafers_and_Max_DsT.py
+    |       |-- run_Schafers_and_DPsC.py
     |-- src
         |-- Algorithms
         |   |-- EJOR_2024
-        |   |   |-- Max_DsT
+        |   |   |-- DPsC
         |   |   |   |-- downward_sweep.py
         |   |   |   |-- dp_msc_t_updated.py
         |   |   |   |-- upward_sweep_updated.py

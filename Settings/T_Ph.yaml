@@ -7,7 +7,7 @@ scripts:
 # >>> Terminology:
 #
 #   - MsC:           maximum s-club, MsC,
-#   - Max-DsT:        our dynamic programming algorithm that finds an MsC on trees in polynomial time
+#   - DPsC:        our dynamic programming algorithm that finds an MsC on trees in polynomial time
 #   - Schafers:       our implementation of the Schäfer's algorithm.
 #   - diameters:      it is a list that stores one or more values of s; i.e., s ∊ diameters
 #
@@ -22,7 +22,7 @@ run_2:
   benchmark_dir:      './Input/T_Ph'  # ..................................... Here we keep the input trees in GML format
   output_logs_dir:    './Output/T_Ph'  # .... Here we save TSV files with the results of the execution of the algorithms
   merge_files:        True  # . When True, merges the output files in a single TSV file (it does not delete other files)
-  msc_log_name:      'Max-DsT'  # ... It's a prefix name, the output is prefix-results.tsv. It Saves the result of Max-DsT
+  msc_log_name:      'DPsC'  # ... It's a prefix name, the output is prefix-results.tsv. It Saves the result of DPsC
   s_club_log_name:    'Schäfer'  # . Similar to the option above, it saves the result of executing the Schäfers slgorithm
 
 
@@ -41,7 +41,7 @@ run_2:
 
   # Choose either True or False in the options below.
 
-  run_Max_DsT:        True  # ........................................................... When True, it executes Max-DsT
+  run_DPsC:        True  # ........................................................... When True, it executes DPsC
   run_Schafers:       True  # ......................... When True, it runs our implementation of the Schäfer's algorithm
   measure_time:       True  # ... When True, it measures the time to compute an MsC on the above selected algorithms
   verbose:            False   # Shows on the command-line interpreter information related to the time required to read

@@ -1,4 +1,4 @@
-# ~/EJOR_2024_Tool/src/Algorithms/EJOR_2024/Max_DsT/downward_sweep.py
+# ~/EJOR_2024_Tool/src/Algorithms/EJOR_2024/DPsC/downward_sweep.py
 
 import math
 

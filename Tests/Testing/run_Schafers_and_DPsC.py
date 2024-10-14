@@ -1,4 +1,4 @@
-# ~/EJOR_2024_Tool/Tests/Testing/run_Schafers_and_Max_DsT.py
+# ~/EJOR_2024_Tool/Tests/Testing/run_Schafers_and_DPsC.py
 
 import os
 import glob
@@ -22,7 +22,7 @@ def merge_result_files(output_logs_dir: str) -> None:
 
 def execute(config: dict):
     # Scripts to run and identify_vertices
-    run_Max_DsT = config['run_Max_DsT']
+    run_DPsC = config['run_DPsC']
     run_Schafers = config['run_Schafers']
     merge_files = config['merge_files']
 
@@ -31,9 +31,9 @@ def execute(config: dict):
     #   2. computes the cardinality |^S| of a solution for each graph (note: it does not identify the vertices in ^S)
     #   3. saves |^S| in TSV files.
 
-    if run_Max_DsT:
+    if run_DPsC:
         config["log_name"] = config["msc_log_name"]
-        config['header'] = ['File', 'Diameter', 'Max_DsT_|S|', 'Max_DsT_time']
+        config['header'] = ['File', 'Diameter', 'DPsC_|S|', 'DPsC_time']
         config['nodeType'] = EnumNodeType.DSClubNode
         config['the_algorithm'] = EnumAlgorithms.DP_MsC_T
 

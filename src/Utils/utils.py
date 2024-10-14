@@ -9,7 +9,7 @@ from src.Algorithms.Enums.enum_algorithms import EnumAlgorithms
 from src.Graphs.Nodes.TreeNodes.dsclub_node import DSClubNode
 from src.Graphs.Nodes.TreeNodes.schafers_node import SchafersNode
 from src.Graphs.Nodes.TreeNodes.directed_tree_node import DirectedTreeNode
-from src.Algorithms.EJOR_2024.Max_DsT.dp_msc_t_updated import DPMsCT_UPDATED
+from src.Algorithms.EJOR_2024.DPsC.dp_msc_t_updated import DPMsCT_UPDATED
 from src.Algorithms.EJOR_2024.Schafer.tree_s_club_updated import TreeSClubUPDATED
 
 

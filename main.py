@@ -1,7 +1,7 @@
 import yaml
 import sys
 
-import Tests.Testing.run_Schafers_and_Max_DsT as m2
+import Tests.Testing.run_Schafers_and_DPsC as m2
 
 # An example of how to run this code:
 #   1.- Open a command-line interpreter and navigate to the 'EJOR_2024_Tool' folder
